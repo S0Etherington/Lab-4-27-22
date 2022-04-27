@@ -13,4 +13,9 @@ const buy = (event) => {
     alert('The duck is now yours. Good luck.')
 }
 
+const hover = (event) => {
+    buyButton.classList.toggle('hover')
+}
+
+buyButton.addEventListener('hover', hover)
 buyButton.addEventListener('click', buy)

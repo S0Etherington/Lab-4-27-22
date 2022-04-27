@@ -44,6 +44,7 @@ body{
     margin-right: auto;
     height: 600px;
     z-index: 1;
+    border-radius: 30px;
 }
 
 #desc{
@@ -60,8 +61,9 @@ body{
     position: relative;
     left: 620px;
     bottom: 400px;
-    background-color: aliceblue;
+    background-color: rgb(162, 165, 168);
     width: 175px;
+    border-radius: 10px;
 }
 
 #sect4{
@@ -69,4 +71,18 @@ body{
     margin-top: 0px;
     margin-left: 0px;
     height: 60px;
+    display: flex;
+    align-content: center;
+}
+
+.hover{
+    background: #4C5B63;
+    background: -moz-linear-gradient(left, #4C5B63 0%, #9FAAAA 50%, #434647 100%);
+    background: -webkit-linear-gradient(left, #4C5B63 0%, #9FAAAA 50%, #434647 100%);
+    background: linear-gradient(to right, #4C5B63 0%, #9FAAAA 50%, #434647 100%);
+}
+
+#header{
+    font-size: 22px;
+    color: rgb(15, 14, 14);
 }
